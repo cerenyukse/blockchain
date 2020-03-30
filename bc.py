@@ -8,7 +8,7 @@ class Block:
         self.timestamp = timestamp
         self.hash = self.get_hash()
 
-    def create_genesis_block():
+    def create_genesis_block(): #baslangıc blogu
         return Block("0","0",datetime.datetime.now())
 
     def get_hash(self):
